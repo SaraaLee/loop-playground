@@ -12,16 +12,20 @@
  let numeroFinal = 5;
 
  for (let i=-5;i<numeroFinal; i++) {
-    console.log("Voy a ejecutar el condicional para el número: " + i)
+    console.log("Voy a ejecutar el condicional para el número: " + i);
     // Modificar a partir de aquí
-    console.log("Soy un número positivo!")
-    console.log("Soy un núemro negativo!")
+    if (i >= 0){
+        console.log("Soy un número positivo!");
+    }
+    else {
+        console.log("Soy un número negativo!");
+    }
 }
 
 /**
  * Pregunta adicional BONUS.
  * 
- * - En este bucle, qué valor tiene la VARIABLE DE INICIALIZACIóN?
- * - ¿Cuantas iteraciones ocurren en este bucle? ¿1? ¿5?
- * - ¿Cuantas instrucciones se ejecutan en CADA iteración de este bucle? ¿1? ¿2?
+ * - En este bucle, qué valor tiene la VARIABLE DE INICIALIZACIóN? -5
+ * - ¿Cuantas iteraciones ocurren en este bucle? ¿1? ¿5? 10
+ * - ¿Cuantas instrucciones se ejecutan en CADA iteración de este bucle? ¿1? ¿2? 11
  */
